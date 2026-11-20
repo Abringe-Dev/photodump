@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Placeholder for our photo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a1157"/>
+      <stop offset="0.5" stop-color="#7a2d87"/>
+      <stop offset="1" stop-color="#ff7eb6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="20%" r="80%">
+      <stop offset="0" stop-color="#ffd1e8" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#ffd1e8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <ellipse cx="270" cy="220" rx="330" ry="280" fill="url(#glow)" filter="url(#soft)"/>
+  <circle cx="710" cy="860" r="210" fill="#b388ff" opacity=".28" filter="url(#soft)"/>
+  <path d="M450 760c-22-20-160-106-205-171-54-72 1-176 86-176 46 0 79 25 100 56 21-31 54-56 100-56 85 0 140 104 86 176-45 65-183 151-205 171a25 25 0 0 1-22 0Z" fill="#fff5ef" opacity=".88"/>
+  <text x="450" y="905" text-anchor="middle" font-family="Verdana, sans-serif" font-size="30" fill="#4a1a6b" opacity=".75">our photo goes here</text>
+</svg>
