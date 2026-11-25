@@ -44,7 +44,7 @@ export default function PhotoPolaroid({ memory, photo, index, onOpen }) {
         </span>
       </button>
 
-      <span className="polaroid-caption line-clamp-2">{photo.caption}</span>
+      <span className="polaroid-caption line-clamp-3">{photo.caption}</span>
     </div>
   );
 }
